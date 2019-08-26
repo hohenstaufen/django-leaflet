@@ -21,7 +21,7 @@
     {{ block.super }}
 
     {% include "leaflet/_leaflet_draw_i18n.js" %}
-    L.Control.ResetView.TITLE = "{% trans "Reset view" %}";
+    L.Control.ResetView.TITLE = gettext("Reset view");
     L.Control.ResetView.ICON = "url({% static "leaflet/images/reset-view.png" %})";
 {% endblock vars %}
 
