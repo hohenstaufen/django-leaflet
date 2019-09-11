@@ -1,5 +1,3 @@
-{% load i18n %}
-
 L.drawLocal.draw.toolbar.actions.title = gettext("Cancel drawing");
 L.drawLocal.draw.toolbar.actions.text = gettext("Cancel");
 L.drawLocal.draw.toolbar.undo.title = gettext("Delete last point drawn");
